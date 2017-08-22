@@ -5,7 +5,7 @@ module.exports = {
   development: {
     client: 'pg',
     connection: {
-      filename: 'agiledb',
+      database: 'agiledb',
       host: '127.0.0.1'
     }
   },

@@ -2,6 +2,11 @@ extends layout
 
 block content
   h1= title
+  ul
+  - for post in posts
+    li
+      h2= post.title
+      h4= post.body
   
   .wrapper
     .postColumn
